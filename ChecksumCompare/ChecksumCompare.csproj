@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <AssemblyTitle>ChecksumCompare</AssemblyTitle>
+        <Product>Checksum Compare</Product>
         <OutputType>WinExe</OutputType>
         <TargetFramework>net9.0-windows</TargetFramework>
         <Nullable>enable</Nullable>
@@ -10,6 +12,9 @@
         <DebugType>portable</DebugType>
         <DebugSymbols>true</DebugSymbols>
         <ApplicationIcon>NyaaFace.ico</ApplicationIcon>
+        <Copyright>Copyright © 2025 Leon Essam</Copyright>
+        <Version>1.0.0.0</Version>
+        <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     </PropertyGroup>
 
 </Project>
