@@ -10,6 +10,7 @@ This WPF application is built with **.NET 9.0** and developed using **JetBrains 
 ## ⚙️ Features
 - 📦 Drag and drop files onto the application to grab the hash
 - ✅ Error handling to ensure it doesn't crash while reporting the error via message box
+- 🌐 Localization support (English, Deutsch, Español, Italiano, Français, Русский, 简体中文)
 - 😺 Cute cat emoji to determine comparison of checksum
 - 🗃️ Alter text boxes and mouse cursor to make it clear when a file is dragged over
 

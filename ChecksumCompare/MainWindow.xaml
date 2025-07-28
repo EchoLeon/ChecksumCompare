@@ -1,7 +1,8 @@
 ﻿<Window x:Class="ChecksumCompare.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Checksum Compare" Height="250" Width="400">
+        xmlns:resources="clr-namespace:ChecksumCompare.Resources"
+        Title="{x:Static resources:Strings.AppTitle}" Height="250" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -32,10 +33,12 @@
                  TextChanged="TextBox_TextChanged"/>
 
         <!-- Left Button -->
-        <Button Grid.Column="0" Grid.Row="1" Content="Select" Margin="20" Height="30" Width="75"
+        <Button Grid.Column="0" Grid.Row="1" Content="{x:Static resources:Strings.ButtonContent}"
+                Margin="20" Height="30" Width="75"
                 Click="LeftButton_Click" />
         <!-- Right Button -->
-        <Button Grid.Column="1" Grid.Row="1" Content="Select" Margin="20" Height="30" Width="75"
+        <Button Grid.Column="1" Grid.Row="1" Content="{x:Static resources:Strings.ButtonContent}"
+                Margin="20" Height="30" Width="75"
                 Click="RightButton_Click" />
 
         <!-- Emoji Label in the center -->
