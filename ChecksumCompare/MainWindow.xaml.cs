@@ -187,8 +187,8 @@ public partial class MainWindow {
 	/// - 😻 (Loving kitty): Shown when both text boxes have the same value
 	/// </summary>
 	private void UpdateEmoji() {
-		string leftTextBoxContent = LeftTextBox.Text;
-		string rightTextBoxContent = RightTextBox.Text;
+		string leftTextBoxContent = LeftTextBox.Text; // Grab text content from LeftTextBox
+		string rightTextBoxContent = RightTextBox.Text; // Grab text content from RightTextBox
 
 		if (leftTextBoxContent == string.Empty || rightTextBoxContent == string.Empty) {
 			// One or both text boxes are empty, show default happy kitty
