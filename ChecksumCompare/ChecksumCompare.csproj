@@ -11,9 +11,9 @@
         <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
         <DebugType>portable</DebugType>
         <DebugSymbols>true</DebugSymbols>
-        <ApplicationIcon>NyaaFace.ico</ApplicationIcon>
+        <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
         <Copyright>Copyright © 2025 Leon Essam</Copyright>
-        <Version>1.1.0</Version>
+        <Version>1.1.1</Version>
         <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     </PropertyGroup>
 
@@ -30,6 +30,10 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>Strings.resx</DependentUpon>
       </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Assets\" />
     </ItemGroup>
 
 </Project>
