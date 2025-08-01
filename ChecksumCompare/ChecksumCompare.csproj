@@ -13,7 +13,7 @@
         <DebugSymbols>true</DebugSymbols>
         <ApplicationIcon>Assets\AppIcon.ico</ApplicationIcon>
         <Copyright>Copyright © 2025 Leon Essam</Copyright>
-        <Version>1.1.0</Version>
+        <Version>1.1.1</Version>
         <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     </PropertyGroup>
 
