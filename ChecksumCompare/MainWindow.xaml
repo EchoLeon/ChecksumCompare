@@ -42,7 +42,7 @@
                 Click="RightButton_Click" />
 
         <!-- Emoji Label in the center -->
-        <Label x:Name="EmojiLabel" Grid.ColumnSpan="2" Grid.Row="2"
+        <Label x:Name="EmojiLabel" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2"
                HorizontalAlignment="Center" VerticalAlignment="Center"
                FontFamily="Segoe UI Emoji" FontSize="24" Content="😺" />
     </Grid>
